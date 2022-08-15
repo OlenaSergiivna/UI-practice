@@ -31,7 +31,6 @@ func addCircleProgrammaticaly(view: UIView, x: Int, y: Int, color: UIColor) {
     let circle = Circle(frame: rect)
     circle.backgroundColor = color
     view.addSubview(circle)
-   // greenCircle.center = CGPoint(x: view.bounds.size.width/2, y: view.bounds.size.height/2)
     circle.center = CGPoint(x: x, y: y)
 }
 
