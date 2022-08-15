@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		CE2EBFC728AAD0DD00B14891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFC628AAD0DD00B14891 /* AppDelegate.swift */; };
 		CE2EBFC928AAD0DD00B14891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFC828AAD0DD00B14891 /* SceneDelegate.swift */; };
-		CE2EBFCB28AAD0DD00B14891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFCA28AAD0DD00B14891 /* ViewController.swift */; };
+		CE2EBFCB28AAD0DD00B14891 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFCA28AAD0DD00B14891 /* FirstViewController.swift */; };
 		CE2EBFCE28AAD0DD00B14891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2EBFCC28AAD0DD00B14891 /* Main.storyboard */; };
 		CE2EBFD028AAD0E300B14891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2EBFCF28AAD0E300B14891 /* Assets.xcassets */; };
 		CE2EBFD328AAD0E300B14891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2EBFD128AAD0E300B14891 /* LaunchScreen.storyboard */; };
+		CE2EBFDB28AAD16800B14891 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFDA28AAD16800B14891 /* SecondViewController.swift */; };
+		CE2EBFDD28AAD21500B14891 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFDC28AAD21500B14891 /* ThirdViewController.swift */; };
+		CE2EBFE128AAD50A00B14891 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFE028AAD50A00B14891 /* FourthViewController.swift */; };
+		CE2EBFE428AADDB500B14891 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFE328AADDB500B14891 /* Circle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE2EBFC328AAD0DD00B14891 /* Homework5_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework5_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2EBFC628AAD0DD00B14891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE2EBFC828AAD0DD00B14891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE2EBFCA28AAD0DD00B14891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE2EBFCA28AAD0DD00B14891 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		CE2EBFCD28AAD0DD00B14891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE2EBFCF28AAD0E300B14891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2EBFD228AAD0E300B14891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2EBFD428AAD0E300B14891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2EBFDA28AAD16800B14891 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CE2EBFDC28AAD21500B14891 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		CE2EBFE028AAD50A00B14891 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		CE2EBFE328AADDB500B14891 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		CE2EBFC528AAD0DD00B14891 /* Homework5_UI */ = {
 			isa = PBXGroup;
 			children = (
+				CE2EBFE228AADD8200B14891 /* Models */,
+				CE2EBFDF28AAD23A00B14891 /* Views */,
+				CE2EBFDE28AAD21C00B14891 /* Controllers */,
 				CE2EBFC628AAD0DD00B14891 /* AppDelegate.swift */,
 				CE2EBFC828AAD0DD00B14891 /* SceneDelegate.swift */,
-				CE2EBFCA28AAD0DD00B14891 /* ViewController.swift */,
-				CE2EBFCC28AAD0DD00B14891 /* Main.storyboard */,
 				CE2EBFCF28AAD0E300B14891 /* Assets.xcassets */,
 				CE2EBFD128AAD0E300B14891 /* LaunchScreen.storyboard */,
 				CE2EBFD428AAD0E300B14891 /* Info.plist */,
 			);
 			path = Homework5_UI;
+			sourceTree = "<group>";
+		};
+		CE2EBFDE28AAD21C00B14891 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE2EBFCA28AAD0DD00B14891 /* FirstViewController.swift */,
+				CE2EBFDA28AAD16800B14891 /* SecondViewController.swift */,
+				CE2EBFDC28AAD21500B14891 /* ThirdViewController.swift */,
+				CE2EBFE028AAD50A00B14891 /* FourthViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE2EBFDF28AAD23A00B14891 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE2EBFCC28AAD0DD00B14891 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE2EBFE228AADD8200B14891 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE2EBFE328AADDB500B14891 /* Circle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2EBFCB28AAD0DD00B14891 /* ViewController.swift in Sources */,
+				CE2EBFE428AADDB500B14891 /* Circle.swift in Sources */,
+				CE2EBFE128AAD50A00B14891 /* FourthViewController.swift in Sources */,
+				CE2EBFDB28AAD16800B14891 /* SecondViewController.swift in Sources */,
+				CE2EBFCB28AAD0DD00B14891 /* FirstViewController.swift in Sources */,
+				CE2EBFDD28AAD21500B14891 /* ThirdViewController.swift in Sources */,
 				CE2EBFC728AAD0DD00B14891 /* AppDelegate.swift in Sources */,
 				CE2EBFC928AAD0DD00B14891 /* SceneDelegate.swift in Sources */,
 			);
