@@ -8,9 +8,10 @@
 import Foundation
 import UIKit
 
+// MARK: Function that adds circle with certain parameters, returns nothing
 
-func addCenteredCircleProgrammaticaly(view: UIView, centerX: Int, centerY: Int, color: UIColor) {
-    let heightWidth: CGFloat = view.bounds.height / 4
+func addCenteredCircleProgrammaticaly(view: UIView, centerX: CGFloat, centerY: CGFloat, color: UIColor, hwRatio: Double = 4) {
+    let heightWidth: CGFloat = view.bounds.height / hwRatio
     let rect = CGRect(x: 0, y: 0, width: heightWidth, height: heightWidth)
     let circle = Circle(frame: rect)
     circle.backgroundColor = color
@@ -18,26 +19,15 @@ func addCenteredCircleProgrammaticaly(view: UIView, centerX: Int, centerY: Int, 
     circle.center = CGPoint(x: centerX, y: centerY)
 }
 
+// MARK: Function that adds circle with certain parameters, returns added circle
 
-func addCenteredCircleProgrammaticalyWithReturn(view: UIView, centerX: Int, centerY: Int, color: UIColor) -> Circle {
-    let heightWidth: CGFloat = view.bounds.height / 4
+func addCenteredCircleProgrammaticalyWithReturn(view: UIView, centerX: CGFloat, centerY: CGFloat, color: UIColor, hwRatio: Double = 4) -> Circle {
+    let heightWidth: CGFloat = view.bounds.height / hwRatio
     let rect = CGRect(x: 0, y: 0, width: heightWidth, height: heightWidth)
     let circle = Circle(frame: rect)
     circle.backgroundColor = color
     view.addSubview(circle)
     circle.center = CGPoint(x: centerX, y: centerY)
-    
-    return circle
-}
-
-
-func addCenteredCircleProgrammaticalyWithHWRatio(view: UIView, centerX: CGFloat, centerY: CGFloat, color: UIColor, hwRatio: Double = 4) -> Circle {
-    let heightWidth: CGFloat = view.bounds.height / CGFloat(hwRatio)
-    let rect = CGRect(x: 0, y: 0, width: heightWidth, height: heightWidth)
-    let circle = Circle(frame: rect)
-    circle.backgroundColor = color
-    view.addSubview(circle)
-    circle.center = CGPoint(x: CGFloat(centerX), y: CGFloat(centerY))
     
     return circle
 }
