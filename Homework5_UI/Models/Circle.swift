@@ -25,12 +25,20 @@ class Circle: UIView {
 
 
 
-func addCircleProgrammaticaly(view: UIView, x: Int, y: Int, color: UIColor) {
-    let heightWidth: CGFloat = 250
+func addCenteredCircleProgrammaticaly(view: UIView, centerX: Int, centerY: Int, color: UIColor) {
+    let heightWidth: CGFloat = view.bounds.height / 4
     let rect = CGRect(x: 0, y: 0, width: heightWidth, height: heightWidth)
     let circle = Circle(frame: rect)
     circle.backgroundColor = color
     view.addSubview(circle)
-    circle.center = CGPoint(x: x, y: y)
+    circle.center = CGPoint(x: centerX, y: centerY)
 }
 
+
+func addCircleProgrammaticaly(view: UIView, x: Int, y: Int, color: UIColor) {
+    let heightWidth = 250
+    let rect = CGRect(x: x, y: y, width: heightWidth, height: heightWidth)
+    let circle = Circle(frame: rect)
+    circle.backgroundColor = color
+    view.addSubview(circle)
+}

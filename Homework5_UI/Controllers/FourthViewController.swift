@@ -12,7 +12,7 @@ class FourthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        addCircleProgrammaticaly(view: view, x: Int(view.bounds.size.width)/2, y: Int(view.bounds.size.height)/2, color: .systemTeal)
+        addCenteredCircleProgrammaticaly(view: view, centerX: Int(view.bounds.size.width)/2, centerY: Int(view.bounds.size.height)/2, color: .systemTeal)
     }
     
 
