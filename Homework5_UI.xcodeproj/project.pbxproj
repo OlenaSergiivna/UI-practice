@@ -16,7 +16,8 @@
 		CE2EBFDB28AAD16800B14891 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFDA28AAD16800B14891 /* SecondViewController.swift */; };
 		CE2EBFDD28AAD21500B14891 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFDC28AAD21500B14891 /* ThirdViewController.swift */; };
 		CE2EBFE128AAD50A00B14891 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFE028AAD50A00B14891 /* FourthViewController.swift */; };
-		CE2EBFE428AADDB500B14891 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFE328AADDB500B14891 /* Circle.swift */; };
+		CE2EBFE428AADDB500B14891 /* CircleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2EBFE328AADDB500B14891 /* CircleClass.swift */; };
+		CE5E4D5A28AC15900091C284 /* AddingFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E4D5928AC15900091C284 /* AddingFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,8 @@
 		CE2EBFDA28AAD16800B14891 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CE2EBFDC28AAD21500B14891 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		CE2EBFE028AAD50A00B14891 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		CE2EBFE328AADDB500B14891 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		CE2EBFE328AADDB500B14891 /* CircleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleClass.swift; sourceTree = "<group>"; };
+		CE5E4D5928AC15900091C284 /* AddingFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 		CE2EBFE228AADD8200B14891 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CE2EBFE328AADDB500B14891 /* Circle.swift */,
+				CE2EBFE328AADDB500B14891 /* CircleClass.swift */,
+				CE5E4D5928AC15900091C284 /* AddingFunc.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,11 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2EBFE428AADDB500B14891 /* Circle.swift in Sources */,
+				CE2EBFE428AADDB500B14891 /* CircleClass.swift in Sources */,
 				CE2EBFE128AAD50A00B14891 /* FourthViewController.swift in Sources */,
 				CE2EBFDB28AAD16800B14891 /* SecondViewController.swift in Sources */,
 				CE2EBFCB28AAD0DD00B14891 /* FirstViewController.swift in Sources */,
 				CE2EBFDD28AAD21500B14891 /* ThirdViewController.swift in Sources */,
+				CE5E4D5A28AC15900091C284 /* AddingFunc.swift in Sources */,
 				CE2EBFC728AAD0DD00B14891 /* AppDelegate.swift in Sources */,
 				CE2EBFC928AAD0DD00B14891 /* SceneDelegate.swift in Sources */,
 			);

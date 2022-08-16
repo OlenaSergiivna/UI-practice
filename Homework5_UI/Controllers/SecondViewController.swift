@@ -18,8 +18,5 @@ class SecondViewController: UIViewController {
         
         addCenteredCircleProgrammaticaly(view: view, centerX: Int(view.bounds.width)/2, centerY: Int((view.bounds.size.height)/2 - (view.bounds.height / 4 + 5)), color: .systemRed)
     }
-    
-
-    
 
 }
